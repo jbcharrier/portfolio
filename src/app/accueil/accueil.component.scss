@@ -1,9 +1,24 @@
 .card{
-  margin: 3rem;
+  margin-bottom: 2rem;
   h5.function{
     font-style: italic;
   }
   .speciality{
     margin: 2rem 0;
+  }
+  .social-media{
+    opacity: 0.5;
+    > div{
+      cursor: pointer;
+    }
+  }
+  .contact {
+    margin-top: 2rem;
+    .icon {
+      opacity: 0.5;
+    }
+    .contact-row{
+      margin-top: 1rem;
+    }
   }
 }
