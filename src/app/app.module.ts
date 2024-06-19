@@ -10,9 +10,10 @@ import { ParcoursComponent } from './parcours/parcours.component';
 import { FormationComponent } from './formation/formation.component';
 import { CompetencesComponent } from './competences/competences.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AccueilComponent, ParcoursComponent, FormationComponent, CompetencesComponent],
+  declarations: [AppComponent, HeaderComponent, AccueilComponent, ParcoursComponent, FormationComponent, CompetencesComponent, FooterComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],

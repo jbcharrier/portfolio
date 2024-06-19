@@ -1,0 +1,16 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: lightgrey;
+  text-align: end;
+  padding: 0 2rem;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+  >p{
+    margin: 10px;
+  }
+}
